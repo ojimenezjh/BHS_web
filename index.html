@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Centro Deportivo</title>
+</head>
+
+<body>
+    <header class="bg-gray-900 p-5 header">
+        <nav class="container mx-auto flex items-center justify-between p-4">
+            <a href="index.html" class="text-white font-medium">Centro Deportivo</a>
+            <div class="flex items-center">
+                <a href="#" class="text-white mr-5">Inicio</a>
+                <a href="#" class="text-white mr-5">Centro</a>
+                <a href="#" class="text-white mr-5">Sobre nosotros</a>
+                <a href="#" class="text-white mr-5">Servicios y precios</a>
+                <a href="#" class="text-white mr-5">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="relative h-screen overflow-hidden">
+        <div class="slider">
+            <div class="apartado-slider items-center">
+                <img src="img/imagenCentro2.jpg" alt="Slider Image 1" class="img-slider">
+                <h2 class="titulo-slider">TU CENTRO DEPORTIVO DE CONFIANZA</h2>
+                <p class="texto-slider">Estamos aquí para cuidar de tu salud</p>
+            </div>
+            
+
+            <!--
+ <img src="https://via.placeholder.com/1920x1080.png?text=Slider+Image+2" alt="Slider Image 2" class="img-slider">
+                <img src="https://via.placeholder.com/1920x1080.png?text=Slider+Image+3" alt="Slider Image 3" class="img-slider">
+                
+                -->
+
+
+        </div>
+    </div>
+
+
+
+    <section class="container mx-auto py-8">
+        <h1 class="text-3xl font-medium text-center">Bienvenido a nuestro Centro Deportivo</h1>
+        <p class="text-center">
+            BHS nace con la idea de ir, como bien dice nuestro nombre, más allá de la Salud y el deporte. Un proyecto
+            que aterriza en Barcelona con mucha ilusión y ambición con el objetivo de ofrecer una experiencia completa a
+            la hora de practicar deporte y sentirse saludable. Queremos que nos dejes acompañarte escogiendo unos
+            hábitos y un estilo de vida saludables para que te sientas mejor y disfrutes más de tu vida y tus hobbies, a
+            la vez que mejoras tu forma física. Te ayudaremos a que las rutinas y hábitos que tomes se adapten a ti y
+            así sacar tu verdadero máximo potencial.
+        </p>
+    </section>
+
+    <section class="container mx-auto py-8">
+        <h1 class="text-3xl font-medium text-center">Nuestros clientes</h1>
+        <p class="text-center">
+            Añadir slider con opiniones de clientes
+        </p>
+    </section>
+
+    <section class="container mx-auto py-8">
+        <h2 class="text-2xl font-medium text-center mb-4">Solicita tu cita</h2>
+        <form>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-medium mb-2" for="name">Nombre</label>
+                <input class="bg-gray-200 p-2 rounded-lg w-full" type="text" id="name" name="name" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-medium mb-2" for="email">Correo electrónico</label>
+                <input class="bg-gray-200 p-2 rounded-lg w-full" type="email" id="email" name="email" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-medium mb-2" for="phone">Teléfono</label>
+                <input class="bg-gray-200 p-2 rounded-lg w-full" type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-medium mb-2" for="date">Fecha deseada</label>
+                <input class="bg-gray-200 p-2 rounded-lg w-full" type="date" id="date" name="date" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-medium mb-2" for="time">Hora deseada</label>
+                <input class="bg-gray-200 p-2 rounded-lg w-full" type="time" id="time" name="time" required>
+            </div>
+            <div class="text-center">
+                <button class="bg-indigo-500 text-white p-2 rounded-lg hover:bg-indigo-600">Enviar</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+<footer class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto text-center">
+        Copyright © 2022 Centro Deportivo
+    </div>
+</footer>
+
+</html>
